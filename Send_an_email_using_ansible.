@@ -1,12 +1,12 @@
 ---
 - hosts: localhost
   tasks:
-  - name: Send email to ashok bhai
+  - name: Send email to mydear friend.
     mail:
       host: smtp.gmail.com
       port: 587
       username: biswajeet.coss@gmail.com
       password: xxxxxxxxxx
-      to: ashokgouda1@gmail.com
+      to: xxxxxxxxxxxx@gmail.com
       subject: Ansible Test Email
       body: Hi This mail is from ansible
